@@ -1,5 +1,5 @@
 {
-  "name": "smml",
+  "name": "@friendlyllm/npm-smml",
   "version": "1.0.0",
   "description": "Utilities for working with Sectioned Message Markup Language (SMML).",
   "main": "index.js",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/friendlyllm/npm-SMML/issues"
   },
-  "homepage": "https://github.com/friendlyllm/npm-SMML#readme"
+  "homepage": "https://github.com/friendlyllm/npm-SMML#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
