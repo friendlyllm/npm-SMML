@@ -1,6 +1,6 @@
 {
   "name": "@friendlyllm/smml",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "Utilities for working with Sectioned Message Markup Language (SMML).",
   "main": "index.js",
   "scripts": {
