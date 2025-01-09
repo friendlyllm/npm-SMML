@@ -1,18 +1,20 @@
 {
   "name": "smml",
   "version": "1.0.0",
-  "description": "Tools for packing and unpacking SMML (Sectioned Message Markup Language)",
+  "description": "Utilities for working with Sectioned Message Markup Language (SMML).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/friendlyllm/npm-SMML.git"
   },
   "keywords": [
-    "Markup-Langual",
-    "GPT"
+    "SMML",
+    "markup",
+    "message",
+    "validation"
   ],
   "author": "FriendlyLLM.com",
   "license": "MIT",
