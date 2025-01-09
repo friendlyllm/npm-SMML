@@ -1,5 +1,5 @@
 {
-  "name": "@friendlyllm/npm-smml",
+  "name": "@friendlyllm/smml",
   "version": "1.0.0",
   "description": "Utilities for working with Sectioned Message Markup Language (SMML).",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/friendlyllm/npm-SMML.git"
+    "url": "git+ssh://git@github.com/friendlyllm/smml.git"
   },
   "keywords": [
     "SMML",
@@ -19,9 +19,9 @@
   "author": "FriendlyLLM.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/friendlyllm/npm-SMML/issues"
+    "url": "https://github.com/friendlyllm/smml/issues"
   },
-  "homepage": "https://github.com/friendlyllm/npm-SMML#readme",
+  "homepage": "https://github.com/friendlyllm/smml#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
