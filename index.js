@@ -11,7 +11,7 @@ function packToSMML(json) {
   let smmlMessage = "";
   for (const key in json) {
     if (Object.prototype.hasOwnProperty.call(json, key)) {
-      smmlMessage += `[${key}]${json[key]}[/${key}]`;
+      smmlMessage += `<<${key}>>${json[key]}<</${key}>>`;
     }
   }
   return smmlMessage;
@@ -23,7 +23,7 @@ function packToSMML(json) {
  * @returns {Object} - The unpacked JSON object.
  */
 function unpackFromSMML(smmlMessage) {
-  const regex = /\[([a-zA-Z0-9_]+)\](.*?)\[\/\1\]/g;
+  const regex = /<<([a-zA-Z0-9_]+)>>(.*?)<<\/\1>>/g;
   const result = {};
   let match;
 
@@ -45,7 +45,7 @@ function validateSMML(smmlMessage, schema) {
   const { allowed, mandatory } = schema;
 
   // Extract sections from the message
-  const regex = /\[([a-zA-Z0-9_]+)\](.*?)\[\/\1\]/g;
+  const regex = /<<([a-zA-Z0-9_]+)>>.*?<<\/\1>>/g;
   const sectionsInMessage = [];
   let match;
 
